@@ -23,6 +23,9 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   List<Marker> myMarker = [];
 
+  final coordinateController = TextEditingController();
+  final nameController = TextEditingController();
+
   @override
   void initState() {
     super.initState();
@@ -44,16 +47,22 @@ class _MyHomePageState extends State<MyHomePage> {
                       decoration: InputDecoration(
                         labelText: 'Coordinates(lat and lng)',
                       ),
+                      controller: coordinateController,
                     ),
                     TextField(
                       decoration: InputDecoration(
                         labelText: 'Name',
                       ),
+                      controller: nameController,
                     ),
-                    FlatButton(
+                    RaisedButton(
+                      color: Colors.purple,
                       child: Text('send'),
-                      textColor: Colors.purple,
-                      onPressed: () {},
+                      textColor: Colors.white,
+                      onPressed: () {
+                        print(coordinateController.text);
+                        print(nameController.text);
+                      },
                     )
                   ],
                 ),
