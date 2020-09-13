@@ -31,7 +31,36 @@ class _MyHomePageState extends State<MyHomePage> {
         markerId: MarkerId('myMarker'),
         draggable: false,
         position: LatLng(23.761694, 90.419091),
-        onTap: () => print('Marker Tapped'),
+        onTap: () {
+          showModalBottomSheet(
+            context: context,
+            builder: (builder) {
+              return Container(
+                padding: EdgeInsets.all(10),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.end,
+                  children: <Widget>[
+                    TextField(
+                      decoration: InputDecoration(
+                        labelText: 'Coordinates(lat and lng)',
+                      ),
+                    ),
+                    TextField(
+                      decoration: InputDecoration(
+                        labelText: 'Name',
+                      ),
+                    ),
+                    FlatButton(
+                      child: Text('send'),
+                      textColor: Colors.purple,
+                      onPressed: () {},
+                    )
+                  ],
+                ),
+              );
+            },
+          );
+        },
       ),
     );
   }
