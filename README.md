@@ -1,16 +1,37 @@
-# google_map
+### Installation
 
-A new Flutter project.
+```
+flutter pub get
+```
+### Usage 
 
-## Getting Started
+```
+flutter run
+```
 
-This project is a starting point for a Flutter application.
+### About
 
-A few resources to get you started if this is your first Flutter project:
+A simple android app built using Flutter and Dart.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Demo
+<a href='https://github.com/enamulhaque028/Spekter-GmbH/releases/download/1.0.0/app-armeabi-v7a-release.apk'>Download</a>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tools and Environment
+
+```
+Flutter 1.20.3
+Tools • Dart 2.9.2
+OS- Ubuntu 20.04 LTS
+```
+
+# Features
+
+- Fullscreen Google Map
+- Marker with my current location on it
+- onClick event to open a modal on tap of the marker
+- In the modal, a short input form with two fields current coordinates and my name and a button to send the data to the console.
+
+
+## Screenshots
+
+<img src="/srceenshots/1.png" width="150"><img src="/srceenshots/2.png" width="150"><img src="/srceenshots/3.png" width="150"><img src="/srceenshots/4.png" width="150"><img src="/srceenshots/5.png" width="150">
