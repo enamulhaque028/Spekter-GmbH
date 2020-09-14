@@ -34,4 +34,4 @@ OS- Ubuntu 20.04 LTS
 
 ## Screenshots
 
-<img src="/srceenshots/1.png" width="150"><img src="/srceenshots/2.png" width="150"><img src="/srceenshots/3.png" width="150"><img src="/srceenshots/4.png" width="150"><img src="/srceenshots/5.png" width="150">
+<img src="/screenshots/1.png" width="150"><img src="/screenshots/2.png" width="150"><img src="/screenshots/3.png" width="150"><img src="/screenshots/4.png" width="150"><img src="/screenshots/5.png" width="150">
